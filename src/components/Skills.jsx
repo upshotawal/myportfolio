@@ -1,11 +1,9 @@
 import React from 'react';
 
 import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
-import FireBase from '../assets/firebase.png';
 import AWS from '../assets/aws.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
@@ -27,8 +25,8 @@ const Skills = () => {
                         <p className='my-4'>HTML</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={CSS} alt="HTML icon" />
-                        <p className='my-4'>CSS</p>
+                        <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
+                        <p className='my-4'>Tailwind</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={JavaScript} alt="HTML icon" />
