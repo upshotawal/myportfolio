@@ -7,7 +7,7 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logo.png';
+import Logo from '../assets/logomy.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        <img src={Logo} alt='Logo Image' style={{ width: '50px' }} />
+        <img src={Logo} alt='Logo Image' style={{ width: '90px' }} />
       </div>
 
       {/* menu */}
@@ -99,7 +99,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/upshot-awal-4563721ab/'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -107,7 +107,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/upshotawal/'
             >
               Github <FaGithub size={30} />
             </a>
@@ -115,7 +115,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://mail.google.com/'
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -123,7 +123,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://app.luminpdf.com/viewer/627a0e403e7053703d5f6d0f'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
