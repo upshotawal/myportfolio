@@ -1,5 +1,6 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
@@ -14,17 +15,21 @@ const Home = () => {
           I'm a Full Stack Developer.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I’m a intern full-stack developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I’m focused on
-          building responsive full-stack web applications.
+          Hi, I am an enthusiastic, self-motivated, and hardworking person and an excellent
+          team worker who is always keen to learning and developing new skills. I have vigorous learning attitude and I am looking for good opportunities to exploit my full
+          potential and interested to develop career through new challenges.
         </p>
         <div>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
-            View Work
-            <span className='group-hover:rotate-90 duration-300'>
-              <HiArrowNarrowRight className='ml-3 ' />
-            </span>
-          </button>
+          <Link to='work' smooth={true} duration={500}>
+            <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+              View Work
+              <span className='group-hover:rotate-90 duration-300'>
+                <HiArrowNarrowRight className='ml-3 ' />
+              </span>
+            </button>
+
+
+          </Link>
         </div>
       </div>
     </div>
